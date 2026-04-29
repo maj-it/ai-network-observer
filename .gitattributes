@@ -1,0 +1,9 @@
+# Chiffrer POC sensibles avec git-crypt
+poc/keylogger/** filter=git-crypt diff=git-crypt
+poc/**/exploit* filter=git-crypt diff=git-crypt
+.private/** filter=git-crypt diff=git-crypt
+
+# Chiffrer credentials
+*.key filter=git-crypt diff=git-crypt
+*.env filter=git-crypt diff=git-crypt
+*secret* filter=git-crypt diff=git-crypt

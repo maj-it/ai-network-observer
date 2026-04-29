@@ -1,0 +1,57 @@
+# SECRETS - NEVER COMMIT
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+.env
+.env.*
+!.env.example
+*secret*
+*password*
+credentials/
+secrets/
+
+# POC SENSIBLES
+poc/keylogger/
+.private/
+private/
+exploit/
+
+# LOGS & DATA
+logs/
+*.log
+*.log.*
+output/
+data/
+
+# BACKUPS
+*.bak
+*.backup
+*.old
+*~
+
+# PYTHON
+__pycache__/
+*.py[cod]
+.Python
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# DOCKER
+docker-compose.override.yml
+# Clés cryptographiques
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+!*.pub
+/root/.ssh/
+~/.ssh/id_*
